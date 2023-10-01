@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex !important;
+}
+
+/* left sidebar start */
+.col-md-4 {
+    width: 300px;
+}
+
+.sec-screen {
+    height: 100vh;
+}
+
+.col-md-4,
+.col-md-8 {
+    padding-top: 40px;
+}
+
+.col-md-8 {
+    width: 100%;
+    border-left: #9c9b9b solid;
+    height: 65vw;
+}
+
+.p1 {
+    border: 1px solid;
+    font-weight: normal;
+    padding: 5px 10px;
+    background-color: #d9d9d9;
+}
+
+.p1 span {
+    margin-right: 5px;
+}
+
+.fa-envelope,
+.fa-users-viewfinder,
+.fa-volume-high {
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.aud-item {
+    border: 1px solid;
+    padding: 5px 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: #d9d9d9;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.fa-angle-up,
+.fa-angle-down {
+    margin-top: 4px;
+    float: right;
+}
+
+.list_item {
+    margin-left: 70px;
+    list-style-type: none;
+    display: block;
+}
+
+.list_item li {
+    padding: 10px 0;
+}
+
+.list_item li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.first-list::after {
+    content: '';
+    display: block;
+    height: 1.3px;
+    width: 90%;
+    background-color: #cec3c3;
+    margin: 10px auto;
+}
+
+/* left sidebar end */
+/* right side start */
+.sec-row {
+    padding: 0 30px;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.btn-div {
+    float: right;
+    margin-right: 40px;
+    padding: 5px 10px;
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: #000;
+}
+
+.dwbtn {
+    margin: auto;
+}
+
+.intechh h1 {
+    font-weight: normal;
+    color: #8f8888;
+}
+
+.col-md-8 .container::after {
+    content: '';
+    display: block;
+    background-color: #d9d9d9;
+    width: 95%;
+    height: 1.2px;
+    margin: 4px auto;
+}
+
+.input-outer-div {
+    border: 1px solid;
+    margin: 20px 30px;
+    border-radius: 10px;
+}
+
+.edit-subject {
+    padding: 5px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.edit-subject p {
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+
+.fa-xmark {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.input-fields {
+    display: grid;
+    place-items: center;
+}
+
+.col-md-6 {
+    padding: 0 12px;
+}
+
+.col-md-6 label {
+    margin-right: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#tdcls {
+    background-color: #d9d9d9;
+}
+
+.col-md-6 input {
+    width: 100%;
+    padding: 5px;
+    background-color: #d9d9d9;
+    border: none;
+}
+.col-md-6 input:focus{
+    box-shadow: 0px 1px 9px #2f2828;;
+} 
+
+.sec-inner-div {
+    border-radius: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.btns button {
+    padding: 4px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.savebtn:hover,.clear:hover {
+    border-radius: 20px;
+}
+
+/* display screen start */
+/* table start */
+table,
+td,
+th {
+    /* border: solid; */
+    padding: 15px;
+}
+
+table tr th:nth-child(1),
+table tr th:nth-child(2),
+table tr td:nth-child(1),
+table tr td:nth-child(2),
+tr {
+    border: 1px gray solid;
+    ;
+}
+
+th {
+    text-align: left;
+}
+
+#table1 {
+    border-collapse: collapse;
+    width: 900px;
+    margin-top: 30px;
+}
+
+.outer-table {
+    display: flex;
+    justify-content: center;
+}
+
+tr td p {
+    width: 100%;
+    text-align: center;
+    background-color: #9c9b9b;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+tr td p:hover{
+    box-shadow: 0px 1px 9px #2f2828;
+}
+
+#table1 tr:nth-child(2n) {
+    background-color: #d9d9d9;
+}
+
+.tbody tr td:nth-child(2) {
+    text-decoration: underline;
+}
+
+.tbody tr td:nth-child(6) p {
+    color: #fff;
+}
+
+
+.sceen-2 {
+    float: none;
+}
+
+/* popup content start */
+.popupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.popupContent {
+    background: rgb(130, 109, 109);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.popupinnerContent {
+    color: #fff;
+}
+
+.closebtn {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cross_mark:hover {
+    color: red;
+    transition: .3s ease-in-out;
+}
+
+/* popup content end */
+
+.fa-bars {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 0 10px 10px;
+}
+
+.menu-div {
+    position: absolute;
+    top: 5px;
+    display: none;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+.xfamark {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+/* responsive screen 1 start */
+@media screen and (max-width: 1142px) {
+    .col-md-4 {
+        display: none;
+    }
+
+    .menu-div {
+        display: block;
+    }
+
+    .outer-table {
+        overflow-x: auto;
+        justify-content: normal;
+        display: grid;
+        place-items: center;
+        margin: 0 10px;
+    }
+
+    .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        border-right: 1px solid gainsboro;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer .row {
+        display: block !important;
+    }
+
+    .footer .row .col-md-6 {
+        width: 100%;
+    }
+
+    .sec-row .textndisplay {
+        display: none;
+    }
+
+    .sec-row .dwbtn {
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .pagination {
+        display: block !important;
+        text-align: center;
+    }
+}
+
+/* second screen responsive */
+@media screen and (max-width: 650px) {
+    .mobile-side .screen2 {
+        display: block !important;
+    }
+
+    .screen2 .intechh {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-btn {
+        display: flex;
+        justify-content: center;
+        float: none;
+        margin-right: 0;
+    }
+
+    .form,
+    .form .col-md-6 {
+        display: block !important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .form .form-group {
+        display: block;
+    }
+}
