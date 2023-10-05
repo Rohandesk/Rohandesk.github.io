@@ -11,25 +11,7 @@ var previousData = [
     { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
     { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
     { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'rj789@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'priyanka456@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'yomikpandya@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'kishormehta@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'sakshi@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'shrutijd@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'infinitech@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'larvator@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' },
-    // { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' }
+    { eaddress: 'Intern1conqt@gmail.com', fname: 'Intern1', lname: 'Techcurve', phno: '1234567897', ecategory: 'ERP', rdate: '2023-09-20' }
 ];
 
 // console.log(previousData);
@@ -109,7 +91,6 @@ var displayPopup = function (row) {
         <p>Email Category: ${text6.innerHTML}</p>
         <p>Register Date: ${text7.innerHTML}</p>
     `
-
     popupContainer.style.display = 'block';
 }
 

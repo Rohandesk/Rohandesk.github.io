@@ -115,8 +115,13 @@
     background-color: #d9d9d9;
     text-decoration: none;
     color: #000;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
 }
-
+.btn-div:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
 .dwbtn {
     margin: auto;
 }
@@ -271,10 +276,23 @@ tr td p:hover{
 .tbody tr td:nth-child(6) p {
     color: #fff;
 }
+.tbody tr:hover{
+    transform: scale(1.02);
+    background-color: #ffff99 !important;
+}
 
 
 .sceen-2 {
     float: none;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.pagination li{
+    padding: 5px;
+    margin-right: 5px;
 }
 
 /* popup content start */
@@ -330,10 +348,6 @@ tr td p:hover{
     display: none;
 }
 
-::-webkit-scrollbar {
-    height: 5px;
-    width: 5px;
-}
 
 .xfamark {
     position: absolute;
